@@ -28,7 +28,7 @@ export default function Home() {
         <link href="./output.css" rel="stylesheet" />
       </Head>
       <Navbar />
-      <main>
+      <main className="w-full h-screen">
         <div className="home-wrapper" style={{ height: "calc(100vh - 300px)" }}>
           <div className="cross-hair-grid">
 
@@ -62,10 +62,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div ref={workRef}>
-          <WorkSection />
-        </div>
       </main>
+      <div ref={workRef}>
+        <WorkSection />
+      </div>
     </>
   )
 }
