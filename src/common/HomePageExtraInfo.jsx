@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HomePageExtraInfo = () => {
   return (
     <div className="sm:col-span-3 extra-info">
@@ -10,13 +12,13 @@ const HomePageExtraInfo = () => {
           <p className="text-end">
             Currently at{" "}
             <span className="ojuju hover:text-pink">
-              <a
+              <Link
                 href="https://easelapps.ai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Easel AI
-              </a>
+              </Link>
             </span>
           </p>
           <p className="text-end">30.2672°N, 97.7431°W</p>

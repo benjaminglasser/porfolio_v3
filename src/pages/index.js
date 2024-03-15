@@ -54,7 +54,8 @@ export default function Home() {
             <div class="w-full md:w-9/12">
               <div class="px-0 md:px-8 lg:px-32">
                 <Link href="mailto:glasserben@gmail.com" target="_blank">
-                  <img class="sky-gif w-full" src="/Images/Home/sky.gif" alt="generative sky" />
+                  <Image class="sky-gif w-full" src="/Images/Home/sky.gif" alt="generative sky" width="100"
+                    height="100" />
                 </Link>
                 <HomePageExtraInfo />
                 <div class="border-b mt-5 md:mt-10"></div>

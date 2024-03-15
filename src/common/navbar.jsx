@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="md:px-8 flex justify-between items-center border-b border-black">
+    <div className="px-10 flex justify-between items-center border-b border-black">
       <h3>
         <Link href="/" className="hover:text-pink ">
           BENJAMIN GLASSER
