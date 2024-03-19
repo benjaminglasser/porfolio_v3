@@ -118,9 +118,9 @@ const NRF = () => {
             </div>
             <h2 className="px-5 md:px-10 md:font-thin">
               Each of these graphics not only underscores the innovative
-              features of Clear Canvas's transparent screen technology but also
-              showcases our ability to blend creativity with technology to push
-              the boundaries of retail experiences.
+              features of Clear Canvas&apos;s transparent screen technology but
+              also showcases our ability to blend creativity with technology to
+              push the boundaries of retail experiences.
             </h2>
           </div>
         </div>
