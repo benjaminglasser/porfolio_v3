@@ -1,7 +1,6 @@
-import Section from "@/app/common/Section";
+import Section from "./Section";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
 const DetailSection = ({

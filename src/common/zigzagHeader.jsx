@@ -1,4 +1,4 @@
-import Section from "@/app/common/Section";
+import Section from "./Section";
 import { Grid } from "@mui/material";
 import React from "react";
 

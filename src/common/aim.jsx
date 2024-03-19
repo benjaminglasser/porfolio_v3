@@ -1,4 +1,4 @@
-import Section from "@/app/common/Section";
+import Section from "./Section";
 import React from "react";
 
 const AIM = ({ aim, className }) => {

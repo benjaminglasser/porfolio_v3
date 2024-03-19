@@ -1,6 +1,5 @@
-import { IMAGES } from "@/app/assets/images";
 import React from "react";
-import VideoPlayerInternal from "@/app/common/VideoPlayerInternal.jsx";
+import VideoPlayerInternal from "./VideoPlayerInternal.jsx";
 
 function VideoPlayerResponsiveBG({ vidDesktop, vidMobile }) {
   return (

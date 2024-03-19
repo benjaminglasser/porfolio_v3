@@ -1,4 +1,4 @@
-import VideoPlayerInternal from "@/app/common/VideoPlayerInternal";
+import VideoPlayerInternal from "./VideoPlayerInternal";
 
 function VideoGrid({ videos }) {
   return (
